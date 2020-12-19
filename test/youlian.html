@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html>
-<body>
-  <title>轮回社</title>
-  <h1>友链</h1>
-  <p>
-    啦啦啦啦啦啦~
-    <a href="https://www.runoob.com/html/html-links.html">菜鸟教程</a>
+  <head>
+    <title>轮回社 -- 友链</title>
+    <style>
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>友链</h1>
+    <p>
+      啦啦啦啦啦啦~
+      <a href="home.html">主页</a>
+    <!--下拉链接-->
+    <div class="dropdown">
+      <span>教程</span>
+      <div class="dropdown-content">
+        <p><a href="https://www.runoob.com/">菜鸟教程</a></p>
+        <p><a href="https://www.cnblogs.com/">博客园</a></p>
+      </div>
+    </div>
   </p>
-</body>
+  </body>
 </html>
