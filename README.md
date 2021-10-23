@@ -40,10 +40,10 @@ inherited·create·spread  </font>**
 **[More Projects](Projects.md)**
 
 ## Members
-请参见[轮回社运营成员列表](Members.md)。
+请参见[轮回社运营成员列表](/Members.md)。
 
 ## 轮回社团的相关
-请参见[轮回社(团)](ICS_Club.md)。
+请参见[轮回社(团)](/ICS_Club.md)。
 
 ## 申明
 轮回社的负责者和所有者为轮回社(企业，还未开办)。  
